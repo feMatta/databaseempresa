@@ -13,7 +13,7 @@ export const getUsers = (_, res) => {
 
 //ADD CLIENTE
 export const addUser = (req, res) => {
-    const q = "INSERT INTO cliente(`id_cliente`, `nome_PJ_PF`, `valor`, `vencimento_boleto`, `endereco`, `produtos`) VALUES(?, ?, ?, ?, ?, ?)";
+    const q = "INSERT INTO cliente(`id_cliente`, `nome_PJ_PF`, `valor`, `vencimento_boleto`, `endereco`, `produtos`) VALUES(?)";
 
         const values = [
             req.body.id_cliente,

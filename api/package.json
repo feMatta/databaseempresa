@@ -17,5 +17,8 @@
     "mysql2": "^3.6.3",
     "nodemon": "^3.0.1",
     "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
